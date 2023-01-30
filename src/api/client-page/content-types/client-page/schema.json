@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_pages",
+  "info": {
+    "singularName": "client-page",
+    "pluralName": "client-pages",
+    "displayName": "Client Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header1": {
+      "type": "string"
+    },
+    "header2": {
+      "type": "string"
+    },
+    "subHeader": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "client_images": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::client-image.client-image"
+    }
+  }
+}

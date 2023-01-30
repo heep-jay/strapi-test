@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "other_sec_lefts",
+  "info": {
+    "singularName": "other-sec-left",
+    "pluralName": "other-sec-lefts",
+    "displayName": "OtherSecLeft"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

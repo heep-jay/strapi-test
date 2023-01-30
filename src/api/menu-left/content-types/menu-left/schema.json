@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_lefts",
+  "info": {
+    "singularName": "menu-left",
+    "pluralName": "menu-lefts",
+    "displayName": "menuLeft"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

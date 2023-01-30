@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "banners": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::banner.banner",
+      "inversedBy": "pages"
+    },
+    "businessSectionHeader": {
+      "type": "string"
+    },
+    "businessSectionSubHeader": {
+      "type": "string"
+    },
+    "reviewHeader": {
+      "type": "string"
+    },
+    "fyblefts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::fybleft.fybleft",
+      "mappedBy": "page"
+    },
+    "fybrights": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::fybright.fybright",
+      "mappedBy": "page"
+    }
+  }
+}

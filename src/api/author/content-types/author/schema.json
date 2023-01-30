@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "singularName": "author",
+    "pluralName": "authors",
+    "displayName": "author"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "news_posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::news-post.news-post",
+      "mappedBy": "author"
+    },
+    "blogposts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blogpost.blogpost",
+      "mappedBy": "author"
+    }
+  }
+}

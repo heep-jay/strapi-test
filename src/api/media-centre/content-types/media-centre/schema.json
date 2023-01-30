@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "media_centres",
+  "info": {
+    "singularName": "media-centre",
+    "pluralName": "media-centres",
+    "displayName": "mediaCentre",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

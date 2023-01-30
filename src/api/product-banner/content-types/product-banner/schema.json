@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_banners",
+  "info": {
+    "singularName": "product-banner",
+    "pluralName": "product-banners",
+    "displayName": "productBanner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

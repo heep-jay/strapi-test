@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "AboutPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutHeader1": {
+      "type": "string"
+    },
+    "aboutHeader2": {
+      "type": "string"
+    },
+    "aboutBody1": {
+      "type": "text"
+    },
+    "aboutBody2": {
+      "type": "text"
+    },
+    "ourMission": {
+      "type": "text"
+    },
+    "ourVision": {
+      "type": "string"
+    },
+    "ourValues": {
+      "type": "text"
+    },
+    "leadersTitle": {
+      "type": "string"
+    },
+    "leadersBody1": {
+      "type": "text"
+    },
+    "aboutImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aboutBody3": {
+      "type": "text"
+    },
+    "management_teams": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::management-team.management-team"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbars",
+  "info": {
+    "singularName": "navbar",
+    "pluralName": "navbars",
+    "displayName": "navbar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutUs": {
+      "type": "string"
+    },
+    "riskAdv": {
+      "type": "string"
+    },
+    "cyberSecurity": {
+      "type": "string"
+    },
+    "otherSec": {
+      "type": "string"
+    },
+    "mediaCentre": {
+      "type": "string"
+    },
+    "enterHalo": {
+      "type": "string"
+    },
+    "abouts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::about.about"
+    },
+    "media_centres": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::media-centre.media-centre"
+    },
+    "cyber_menu_lefts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cyber-menu-left.cyber-menu-left"
+    },
+    "cyber_menu_rights": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cyber-menu-right.cyber-menu-right"
+    },
+    "best_features": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::best-feature.best-feature"
+    },
+    "menu_lefts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::menu-left.menu-left"
+    },
+    "menu_rights": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::menu-right.menu-right"
+    }
+  }
+}
