@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photo_galleries",
+  "info": {
+    "singularName": "photo-gallery",
+    "pluralName": "photo-galleries",
+    "displayName": "Photo Gallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "caption": {
+      "type": "text"
+    },
+    "photos": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "year": {
+      "type": "string"
+    }
+  }
+}

@@ -1,21 +1,20 @@
 {
   "kind": "collectionType",
-  "collectionName": "media_centres",
+  "collectionName": "security_education_menus",
   "info": {
-    "singularName": "media-centre",
-    "pluralName": "media-centres",
-    "displayName": "mediaCentremenu",
-    "description": ""
+    "singularName": "security-education-menu",
+    "pluralName": "security-education-menus",
+    "displayName": "securityEducationMenu"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "icon": {
+    "name": {
       "type": "string"
     },
-    "name": {
+    "icon": {
       "type": "string"
     },
     "url": {

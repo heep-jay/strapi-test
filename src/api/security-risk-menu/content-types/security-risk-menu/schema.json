@@ -1,21 +1,20 @@
 {
   "kind": "collectionType",
-  "collectionName": "media_centres",
+  "collectionName": "security_risk_menus",
   "info": {
-    "singularName": "media-centre",
-    "pluralName": "media-centres",
-    "displayName": "mediaCentremenu",
-    "description": ""
+    "singularName": "security-risk-menu",
+    "pluralName": "security-risk-menus",
+    "displayName": "securityRiskMenu"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "icon": {
+    "name": {
       "type": "string"
     },
-    "name": {
+    "icon": {
       "type": "string"
     },
     "url": {

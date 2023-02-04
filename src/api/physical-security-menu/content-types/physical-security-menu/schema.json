@@ -1,21 +1,20 @@
 {
   "kind": "collectionType",
-  "collectionName": "media_centres",
+  "collectionName": "physical_security_menus",
   "info": {
-    "singularName": "media-centre",
-    "pluralName": "media-centres",
-    "displayName": "mediaCentremenu",
-    "description": ""
+    "singularName": "physical-security-menu",
+    "pluralName": "physical-security-menus",
+    "displayName": "physicalSecurityMenu"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "icon": {
+    "name": {
       "type": "string"
     },
-    "name": {
+    "icon": {
       "type": "string"
     },
     "url": {

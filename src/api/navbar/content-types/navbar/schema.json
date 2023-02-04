@@ -15,12 +15,6 @@
     "aboutUs": {
       "type": "string"
     },
-    "riskAdv": {
-      "type": "string"
-    },
-    "cyberSecurity": {
-      "type": "string"
-    },
     "otherSec": {
       "type": "string"
     },

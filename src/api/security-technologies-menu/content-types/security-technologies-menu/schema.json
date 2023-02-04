@@ -1,21 +1,20 @@
 {
   "kind": "collectionType",
-  "collectionName": "media_centres",
+  "collectionName": "security_technologies_menus",
   "info": {
-    "singularName": "media-centre",
-    "pluralName": "media-centres",
-    "displayName": "mediaCentremenu",
-    "description": ""
+    "singularName": "security-technologies-menu",
+    "pluralName": "security-technologies-menus",
+    "displayName": "securityTechnologiesMenu"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "icon": {
+    "name": {
       "type": "string"
     },
-    "name": {
+    "icon": {
       "type": "string"
     },
     "url": {

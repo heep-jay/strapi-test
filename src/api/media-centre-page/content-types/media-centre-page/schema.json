@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "media_centre_pages",
+  "info": {
+    "singularName": "media-centre-page",
+    "pluralName": "media-centre-pages",
+    "displayName": "Media Centre Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "subHeader": {
+      "type": "text"
+    },
+    "photo_galleries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::photo-gallery.photo-gallery"
+    },
+    "video_galleries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::video-gallery.video-gallery"
+    }
+  }
+}
