@@ -39,25 +39,35 @@
       "relation": "oneToMany",
       "target": "api::cyber-menu-left.cyber-menu-left"
     },
-    "cyber_menu_rights": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::cyber-menu-right.cyber-menu-right"
-    },
     "best_features": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::best-feature.best-feature"
     },
-    "menu_lefts": {
+    "outsourcing_menus": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::menu-left.menu-left"
+      "target": "api::outsourcing-menu.outsourcing-menu"
     },
-    "menu_rights": {
+    "physical_security_menus": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::menu-right.menu-right"
+      "target": "api::physical-security-menu.physical-security-menu"
+    },
+    "security_education_menus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::security-education-menu.security-education-menu"
+    },
+    "security_risk_menus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::security-risk-menu.security-risk-menu"
+    },
+    "security_technologies_menus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::security-technologies-menu.security-technologies-menu"
     }
   }
 }
