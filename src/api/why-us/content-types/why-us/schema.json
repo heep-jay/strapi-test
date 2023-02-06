@@ -4,7 +4,8 @@
   "info": {
     "singularName": "why-us",
     "pluralName": "why-uses",
-    "displayName": "why us"
+    "displayName": "why-halogen-page-reasons",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,15 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

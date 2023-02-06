@@ -4,7 +4,8 @@
   "info": {
     "singularName": "cyber-menu-left",
     "pluralName": "cyber-menu-lefts",
-    "displayName": "cyberMenuLeft"
+    "displayName": "menu-cyber-security",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product-banner",
     "pluralName": "product-banners",
-    "displayName": "productBanner"
+    "displayName": "halogen-product-page-productBanner",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

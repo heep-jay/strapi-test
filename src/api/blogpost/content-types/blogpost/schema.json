@@ -4,7 +4,7 @@
   "info": {
     "singularName": "blogpost",
     "pluralName": "blogposts",
-    "displayName": "blogpost",
+    "displayName": "halogen-blogpost",
     "description": ""
   },
   "options": {

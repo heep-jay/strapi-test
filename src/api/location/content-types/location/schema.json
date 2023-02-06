@@ -4,7 +4,8 @@
   "info": {
     "singularName": "location",
     "pluralName": "locations",
-    "displayName": "location"
+    "displayName": "contact-location",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

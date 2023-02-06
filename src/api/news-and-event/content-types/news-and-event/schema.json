@@ -4,7 +4,8 @@
   "info": {
     "singularName": "news-and-event",
     "pluralName": "news-and-events",
-    "displayName": "News and Event"
+    "displayName": "news-and-event-page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

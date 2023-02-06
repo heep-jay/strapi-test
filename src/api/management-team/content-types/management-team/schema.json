@@ -4,7 +4,8 @@
   "info": {
     "singularName": "management-team",
     "pluralName": "management-teams",
-    "displayName": "Management Team"
+    "displayName": "about-us-leadership-team",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,14 +22,15 @@
       "type": "text"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

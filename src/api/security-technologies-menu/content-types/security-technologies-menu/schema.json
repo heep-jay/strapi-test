@@ -4,7 +4,8 @@
   "info": {
     "singularName": "security-technologies-menu",
     "pluralName": "security-technologies-menus",
-    "displayName": "securityTechnologiesMenu"
+    "displayName": "menu-security-technologies",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

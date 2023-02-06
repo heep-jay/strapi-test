@@ -4,7 +4,8 @@
   "info": {
     "singularName": "physical-security-menu",
     "pluralName": "physical-security-menus",
-    "displayName": "physicalSecurityMenu"
+    "displayName": "menu-physical-security",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

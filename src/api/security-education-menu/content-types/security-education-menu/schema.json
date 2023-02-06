@@ -4,7 +4,8 @@
   "info": {
     "singularName": "security-education-menu",
     "pluralName": "security-education-menus",
-    "displayName": "securityEducationMenu"
+    "displayName": "menu-security-education",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

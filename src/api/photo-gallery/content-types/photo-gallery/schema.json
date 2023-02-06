@@ -4,7 +4,8 @@
   "info": {
     "singularName": "photo-gallery",
     "pluralName": "photo-galleries",
-    "displayName": "Photo Gallery"
+    "displayName": "gallery-photos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,22 +13,23 @@
   "pluginOptions": {},
   "attributes": {
     "mainImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "caption": {
       "type": "text"
     },
     "photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "year": {
       "type": "string"

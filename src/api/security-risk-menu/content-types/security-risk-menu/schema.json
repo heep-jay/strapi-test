@@ -4,7 +4,8 @@
   "info": {
     "singularName": "security-risk-menu",
     "pluralName": "security-risk-menus",
-    "displayName": "securityRiskMenu"
+    "displayName": "menu-security-risk",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
