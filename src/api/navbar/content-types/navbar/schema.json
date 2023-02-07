@@ -39,11 +39,6 @@
       "relation": "oneToMany",
       "target": "api::cyber-menu-left.cyber-menu-left"
     },
-    "best_features": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::best-feature.best-feature"
-    },
     "outsourcing_menus": {
       "type": "relation",
       "relation": "oneToMany",

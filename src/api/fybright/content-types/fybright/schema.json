@@ -4,7 +4,7 @@
   "info": {
     "singularName": "fybright",
     "pluralName": "fybrights",
-    "displayName": "for-your-business-right",
+    "displayName": "landing-page-for-your-business-right",
     "description": ""
   },
   "options": {
@@ -29,6 +29,9 @@
       "relation": "manyToOne",
       "target": "api::page.page",
       "inversedBy": "fybrights"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }

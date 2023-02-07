@@ -4,7 +4,7 @@
   "info": {
     "singularName": "fybleft",
     "pluralName": "fyblefts",
-    "displayName": "for-your-business-left",
+    "displayName": "landing-page-for-your-business-left",
     "description": ""
   },
   "options": {
@@ -29,6 +29,9 @@
       "relation": "manyToOne",
       "target": "api::page.page",
       "inversedBy": "fyblefts"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
